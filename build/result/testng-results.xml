@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gradle suite" duration-ms="73395" started-at="2019-11-27T14:09:31Z" finished-at="2019-11-27T14:10:44Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="FlightBookingTest.bookARoundTripFlight()[pri:0, instance:testCases.FlightBookingTest@f31d078]" name="bookARoundTripFlight" class="testCases.FlightBookingTest"/>
+        <method signature="LoginTestCase.loginWithCorrectData()[pri:0, instance:testCases.LoginTestCase@449a9d7c]" name="loginWithCorrectData" class="testCases.LoginTestCase"/>
+        <method signature="LoginTestCase.loginWithCorrectUserNameWrongPassword()[pri:0, instance:testCases.LoginTestCase@449a9d7c]" name="loginWithCorrectUserNameWrongPassword" class="testCases.LoginTestCase"/>
+        <method signature="LoginTestCase.loginWithInCorrectUserNameCorrectPassword()[pri:0, instance:testCases.LoginTestCase@449a9d7c]" name="loginWithInCorrectUserNameCorrectPassword" class="testCases.LoginTestCase"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="Gradle test" duration-ms="73395" started-at="2019-11-27T14:09:31Z" finished-at="2019-11-27T14:10:44Z">
+      <class name="testCases.LoginTestCase">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.LoginTestCase@449a9d7c]" name="beforeMethod" is-config="true" duration-ms="1782" started-at="2019-11-27T14:10:03Z" finished-at="2019-11-27T14:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithCorrectData()[pri:0, instance:testCases.LoginTestCase@449a9d7c]" name="loginWithCorrectData" duration-ms="14408" started-at="2019-11-27T14:10:04Z" finished-at="2019-11-27T14:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.LoginTestCase@449a9d7c]" name="beforeMethod" is-config="true" duration-ms="1817" started-at="2019-11-27T14:10:19Z" finished-at="2019-11-27T14:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithCorrectUserNameWrongPassword()[pri:0, instance:testCases.LoginTestCase@449a9d7c]" name="loginWithCorrectUserNameWrongPassword" duration-ms="12828" started-at="2019-11-27T14:10:21Z" finished-at="2019-11-27T14:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectUserNameWrongPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.LoginTestCase@449a9d7c]" name="beforeMethod" is-config="true" duration-ms="1302" started-at="2019-11-27T14:10:33Z" finished-at="2019-11-27T14:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithInCorrectUserNameCorrectPassword()[pri:0, instance:testCases.LoginTestCase@449a9d7c]" name="loginWithInCorrectUserNameCorrectPassword" duration-ms="9363" started-at="2019-11-27T14:10:35Z" finished-at="2019-11-27T14:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInCorrectUserNameCorrectPassword -->
+      </class> <!-- testCases.LoginTestCase -->
+      <class name="testCases.FlightBookingTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.FlightBookingTest@f31d078]" name="beforeMethod" is-config="true" duration-ms="3373" started-at="2019-11-27T14:09:31Z" finished-at="2019-11-27T14:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="bookARoundTripFlight()[pri:0, instance:testCases.FlightBookingTest@f31d078]" name="bookARoundTripFlight" duration-ms="28488" started-at="2019-11-27T14:09:34Z" finished-at="2019-11-27T14:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookARoundTripFlight -->
+      </class> <!-- testCases.FlightBookingTest -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>

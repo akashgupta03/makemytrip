@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCases.FlightBookingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-27T14:09:34" hostname="ip-192-168-1-7.ap-southeast-1.compute.internal" time="28.488">
+  <properties/>
+  <testcase name="bookARoundTripFlight" classname="testCases.FlightBookingTest" time="28.488"/>
+  <system-out><![CDATA[Test case pass and detail are bookARoundTripFlight
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 28227
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1574863772.024][WARNING]: FromSockAddr failed on netmask
+Nov 27, 2019 7:39:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

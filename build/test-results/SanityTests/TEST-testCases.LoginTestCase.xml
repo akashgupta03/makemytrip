@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCases.LoginTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-11-27T14:10:04" hostname="ip-192-168-1-7.ap-southeast-1.compute.internal" time="39.721">
+  <properties/>
+  <testcase name="loginWithCorrectData" classname="testCases.LoginTestCase" time="14.408"/>
+  <testcase name="loginWithCorrectUserNameWrongPassword" classname="testCases.LoginTestCase" time="12.828"/>
+  <testcase name="loginWithInCorrectUserNameCorrectPassword" classname="testCases.LoginTestCase" time="9.363"/>
+  <system-out><![CDATA[Test case pass and detail are loginWithCorrectData
+Test case Start and detail areloginWithCorrectUserNameWrongPassword
+CONTINUE
+Test case pass and detail are loginWithCorrectUserNameWrongPassword
+Test case Start and detail areloginWithInCorrectUserNameCorrectPassword
+CONTINUE
+This username does not exist. CLICK HERE If your are trying to create a new personal account
+Test case pass and detail are loginWithInCorrectUserNameCorrectPassword
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 28191
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1574863803.159][WARNING]: FromSockAddr failed on netmask
+Nov 27, 2019 7:40:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 16347
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1574863819.367][WARNING]: FromSockAddr failed on netmask
+Nov 27, 2019 7:40:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 22170
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1574863833.995][WARNING]: FromSockAddr failed on netmask
+Nov 27, 2019 7:40:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
